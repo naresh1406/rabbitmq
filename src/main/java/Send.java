@@ -4,12 +4,6 @@ import com.rabbitmq.client.ConnectionFactory;
 
 import java.nio.charset.StandardCharsets;
 
-/**
- * Created with IntelliJ IDEA.
- * User: ngupta
- * Date: 13/7/2020 AD
- * Time: 16:09
- */
 public class Send {
     private final static String QUEUE_NAME = "vcard_db_replication_queue";
 

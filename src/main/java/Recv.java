@@ -3,12 +3,6 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
-/**
- * Created with IntelliJ IDEA.
- * User: ngupta
- * Date: 13/7/2020 AD
- * Time: 16:42
- */
 public class Recv {
     private final static String QUEUE_NAME = "hello";
 
